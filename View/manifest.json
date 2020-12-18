@@ -1,0 +1,19 @@
+{
+  "name" : "ReadIt Visualizer",
+  "version" : "1.0",
+  "description" : "A reddit scraper",
+  "permissions": [
+    "browsingData"
+  ],
+
+  "icons": {
+      "16": "ReadIt16.png",
+      "48": "ReadIt48.png",
+      "128": "ReadIt128.png"
+    },
+  "browser_action": {
+     "default_icon": "ReadIt.png",
+     "default_popup": "popupWindow.html"
+  },
+  "manifest_version": 2
+}
